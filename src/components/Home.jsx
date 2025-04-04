@@ -6,9 +6,12 @@ const Home = () => {
   const [upload, setUpload] = useState(null);
   const [enhanced, setEnhanced] = useState(null);
   const [loading, setLoading] = useState(false);
+
+  const uploadImageHandler = (file) => {};
+
   return (
     <>
-      <Upload ></Upload>
+      <Upload uploadImageHandler={uploadImageHandler}></Upload>
       <Preview loading={loading} upload={upload} enhanced={enhanced}></Preview>
     </>
   );
