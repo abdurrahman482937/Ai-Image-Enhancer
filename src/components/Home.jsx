@@ -4,10 +4,10 @@ import Preview from "./Preview";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Upload></Upload>
       <Preview></Preview>
-    </div>
+    </>
   );
 };
 
