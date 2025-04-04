@@ -6,7 +6,6 @@ const Home = () => {
   const [upload, setUpload] = useState(null);
   const [enhanced, setEnhanced] = useState(null);
   const [loading, setLoading] = useState(false);
-
   const uploadImageHandler = (file) => {};
 
   return (
@@ -16,5 +15,4 @@ const Home = () => {
     </>
   );
 };
-
 export default Home;
